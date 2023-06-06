@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "pages";
+  src: url(font/LemonTea.otf);
+}
+/*header*/
+.logo{
+    width: 80px;
+}
+
+.login{
+  margin-top: 12px;
+  margin-left: 40px;
+  margin-right: 40px;
+    
+    width: 40px;
+}
+
+.compte{
+  margin-top: 1px;
+  margin-left: 29px;
+}
+
+.navbarcontent {
+  
+   display: flex;
+    margin-left: 220px;
+  }
+
+  .nav-item{
+    font-family: pages;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  /*index*/
+
+  
+  .d-block{
+    width: 100px;
+    height: 800px;    
+  }
+
+  
