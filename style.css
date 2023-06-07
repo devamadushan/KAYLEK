@@ -2,6 +2,10 @@
   font-family: "pages";
   src: url(font/LemonTea.otf);
 }
+@font-face {
+  font-family: "conditions";
+  src: url(font/LEMONMILK-Light.otf);
+}
 /*header*/
 .logo{
     width: 80px;
@@ -35,8 +39,7 @@
   }
 
   /*index*/
-
-  
+ 
   .d-block{
     width: 100px;
     height: 800px;    
@@ -45,6 +48,8 @@
   .condition{
     width: 180px;
     text-align: center;
+    text-align: center; font-family: conditions; 
+    
   }
 
   .lesconditions{
@@ -54,35 +59,78 @@
     width: 30000px;
   }
   
-  h1{
-    margin-top: 55550px;
+  .titre{
+    margin-top: 40px;
     text-align: center;
+    font-family: pages;
+    font-size: 50px;
+   
   }
 
-  .first{
-
-  }
   .tables {
-   
     border-collapse: collapse;
-  
+ 
 }
-
-.tables th, .table td {
-    padding: 10px;
-    
-    text-align: center;
-    
-}
-
-.tables th {
-   
-}
-
 .tables img {
   display: block;
   margin: 0 auto;
+  margin-top: 30px;
 }
 th{
   width: 5000px;
 }
+
+/*Menu*/
+.menu{
+  margin-top: 150px;
+  text-align: center;
+  font-family: pages;
+  font-size: 50px;
+}
+.MT{
+  margin-top: 64px;
+  text-align: center;
+  text-align: center; font-family: conditions; 
+  
+}
+
+.imgmenu{
+width: 200px;
+}
+
+.descmenu{
+  width: 180px;
+  margin-top: 20px;
+  text-align: center;
+  text-align: center; font-family: conditions; 
+  
+  
+}
+.descmenu{
+  border-left: 1px solid black;
+  border-bottom:1px solid black ;
+  border-right: 1px solid black;
+  width: 300px;
+}
+.descmenu1{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  margin-bottom: 200px;
+  margin-bottom: 200px;
+}
+
+.table2{
+  border-collapse: collapse;
+  width: 990px;
+  margin: 0 auto ;
+}
+
+.table2 img{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+

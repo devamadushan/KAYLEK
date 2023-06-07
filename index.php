@@ -42,14 +42,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <br>
-    <h1>Nos Conditions</h1>
-    <div class="lesconditions">
-    
+    <h1 class="titre">Nos Conditions</h1>
    
-    
-    </div>
-    
-
     <table class="tables">
   
     <tr>
@@ -57,12 +51,29 @@
       <th scope="col"> <img class="condition" src="img/heures-douverture.gif"></th>
       <th scope="col"><img class="condition" src="img/route.gif" ></th>
     </tr>
+   
     <tr>
-      <td style="text-align: center;">Nous cuisinons uniquement à la demande <br> minimum de commande 4plats/jus</td>
-      <td style="text-align: center;">Commande à passer 72h avant</td>
-      <td style="text-align: center;">Retrait de commande possible a la Gare de Savigny</td>
+      <td class="condition" style="">Nous cuisinons uniquement à la demande <br> minimum de commande 4plats/jus</td>
+      <td class="condition" >Commande à passer 72h avant</td>
+      <td class="condition" >Retrait de commande possible a la Gare de Savigny</td>
     </tr>
 </table>
-  
+<h1 class ="menu" id="menu">Nos Menus</h1>
+<p id="phrases"class="MT">une palette de délices faits maisons à savourer seul ou a plusieur.</p>
+
+<table  id="myTable" class="table2">
+<tr>
+    <th class="descmenu1"><img  id="imageCell" src="img/sen.JPG" class="imgmenu"></th>
+    <th class="descmenu1"><img id="imageCell" src="img/veg.JPG" class="imgmenu"></th>
+    <th class="descmenu1"><img id="imageCell" src="img/sucre.JPG" class="imgmenu"></th>
+</tr>
+<tr>
+    <td id="textcell" class="descmenu">Plats Sénegalais <br> Menu (Entrée-plat-boisson)</td>
+    <td id="textcell" class="descmenu">Plats Végétariens <br> Plat</td>
+    <td id="textcell" class="descmenu">Salé & Sucré <br> Assotiment de mignardise</td>
+</tr>
+
+
+</table>
 </body>
 </html>
