@@ -356,3 +356,109 @@ padding-top: 10vh;
   padding-left: 7vh;
   margin-top: -36vh;
 }
+
+.noscartes{
+  padding-top: 7vh;
+  
+  width: 180ch;
+  margin: 0 auto;
+  height: 20vh;
+}
+
+.tnoscartes{
+  font-family: pages;
+  text-align: center;
+
+}
+
+.txtnoscartes{
+  font-family: conditions;
+  text-align: center;
+}
+
+.platssenegalais{
+  width: 180ch;
+  margin: 0 auto;
+  padding-top: 7vh;
+
+}
+
+.PStitre{
+  font-family: pages;
+  text-align: center;
+
+}
+
+.PStxt{
+  font-family: conditions;
+  text-align: center;
+  padding-top: 3vh;
+  padding-left: 15vh;
+  padding-right: 15vh;
+}
+
+.PSimg{
+  padding-top: 3vh;
+  padding-left: 32vh;
+}
+
+.Platsveg{
+  width: 180ch;
+  margin: 0 auto;
+  padding-top: 7vh;
+}
+
+.GB{
+  
+  width: 180ch;
+  margin: 0 auto;
+  padding-top: 12vh;
+}
+
+.gtitre{
+  font-family: pages;
+  text-align: center;
+ margin-top: -24vh;
+  
+}
+.gtxt{
+  font-family: conditions;
+  text-align: center;
+  margin-top: 4vh;
+}
+.gimg{
+  width: 82vh;
+  
+}
+.GBtable{
+  
+  height: 20px;
+  
+
+}
+.bimg{
+  width: 83vh;
+}
+
+.SS{
+  width: 180vh;
+  margin: 0 auto;
+  margin-top: 12vh;
+}
+
+.SSimg{
+  width: 90vh;
+}
+
+.SStitre{
+  font-family: pages;
+  text-align: center;
+}
+.SStxt{
+  font-family: conditions;
+  text-align: center;
+}
+
+.nosplats{
+  
+}

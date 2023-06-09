@@ -28,7 +28,7 @@
 
 
       <li class="nav-item ">
-        <a class="nav-link" href="#">Nos plats </a>
+        <a class="nav-link" href="nosplats.php">Nos plats </a>
       </li>
 
       <li class="nav-iem">
