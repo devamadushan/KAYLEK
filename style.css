@@ -11,6 +11,7 @@
     width: 80px;
 }
 
+
 .login{
   margin-top: 12px;
   margin-left: 40px;
@@ -80,6 +81,46 @@ th{
   width: 5000px;
 }
 
+.tGrillade{
+  cursor: pointer;
+  text-align: center;
+  font-family: pages;
+}
+
+.descmenu2{
+  width: 180px;
+  margin-top: 20px;
+  
+   font-family: conditions; 
+   margin: 0 auto;
+ background-color: aquamarine;
+  width: 500px;
+  
+}
+.grilladetxt{
+  font-family: conditions;
+}
+
+.wrap--image{
+  height: 140vh;
+  width: 160vh;
+  overflow:hidden;
+  margin: 0 auto;
+ 
+  
+}
+.titregrillade{
+ margin-top: 20vh;
+  height: 60px;
+}
+
+.grilladeimg{
+  transition: 1.0s;
+  width: 160vh;
+  height: 66vh;
+
+}
+
 /*Menu*/
 .menu{
   margin-top: 150px;
@@ -87,8 +128,17 @@ th{
   font-family: pages;
   font-size: 50px;
 }
+.menu2{
+  margin-top: 150px;
+  text-align: center;
+  font-family: pages;
+  font-size: 50px;
+  margin: 0 auto;
+  width: 1500px;
+  background-color: aquamarine;
+}
 .MT{
-  margin-top: 64px;
+  margin-top: 40px;
   text-align: center;
   text-align: center; font-family: conditions; 
   
@@ -98,26 +148,47 @@ th{
 width: 200px;
 }
 
+
 .descmenu{
   width: 180px;
   margin-top: 20px;
   text-align: center;
   text-align: center; font-family: conditions; 
-  
-  
-}
-.descmenu{
+   
   border-left: 1px solid black;
   border-bottom:1px solid black ;
   border-right: 1px solid black;
-  width: 300px;
+  
+  
 }
-.descmenu1{
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+.descmenu4{
+  width: 180px;
+  margin-top: 20px;
+  text-align: center;
+  text-align: center; font-family: conditions; 
+   
+  
+  border-bottom:1px solid black ;
+ 
+  
+}
+
+.descmenu3{
+
   border-top: 1px solid black;
   margin-bottom: 200px;
   margin-bottom: 200px;
+  
+
+}
+.descmenu1{
+  
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  margin-bottom: 200px;
+  margin-bottom: 200px;
+  border-right: 1px solid black;
+  
 }
 
 .table2{
@@ -133,4 +204,155 @@ width: 200px;
   margin-top: 50px;
 }
 
+.btn{
+  margin: 0 auto;
+  margin-left: 94px;
+  margin-top: 40px;
+}
 
+.zmenu{
+  background-color:#BBAA51;
+  cursor: pointer;
+  transition: background-color 0.9s ease;
+
+
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.titreb{
+  font-size: 5vh;
+  margin-top: -1vh;
+  font-family: pages;
+  text-align: center;
+  
+  width: 50vh;
+  margin: 0 auto;
+  
+}
+
+.texteb{
+  margin-top: 5vh;
+  font-family: conditions;
+  text-align: center;
+  
+  width: 50vh;
+  margin: 0 auto;
+  
+}
+
+.imgb{
+  margin-top: vh;
+  width: 203vh;
+  height: 70vh;
+}
+.zonebT{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  height: 27vh;
+  background-color: white;
+  width: 52vh;
+  margin: 0 auto;
+}
+
+.zoneBTI{
+  background-color: #BBAA51;
+}
+.pres{
+  border-top: 1px solid black;
+  width: 180vh;
+  margin: 0 auto;
+  height: 30vh;
+}
+.presimg{
+  margin-top: -14vh;
+  width: 20vh;
+  margin-left: 130vh;
+  
+}
+.presstitre{
+  font-family: pages;
+  margin-left: 65vh;
+  padding-top:  7vh;
+  padding-bottom:  2vh;
+
+}
+
+.presstxt{
+font-family: conditions;
+margin-left: 20vh;
+}
+
+.directrice{
+  
+  width:180vh;
+  margin: 0 auto;
+  height: 40vh;
+}
+
+.directricetitre{
+  font-family: conditions;
+  padding-top:  5vh;
+  padding-left:  20vh;
+}
+
+.directricetxt{
+  font-family: conditions;
+  padding-top:  5vh;
+  padding-left:  50vh;
+  padding-right: 28vh;
+  margin-bottom: 10vh;
+  text-align: center;
+}
+
+.participation{
+padding-top: 10vh;
+  width: 180vh;
+  margin: 0 auto;
+  height: 180vh;
+
+}
+
+.participationtitre{
+  font-family: pages;
+  text-align: center;
+}
+
+.participationtxt{
+  font-family: conditions;
+  padding-left: 2vh;
+  padding-right: 100vh;
+  text-align: center;
+  padding-top: 40vh;
+  
+}
+.participationimg{
+  width: 90vh;
+  margin-left: 85vh;
+  margin-top: -39vh;
+
+
+}
+.participationtxt2{
+  font-family: conditions;
+  padding-left: 100vh;
+  padding-right: 2vh;
+  padding-top: 35vh;
+  text-align: center;
+}
+
+.participationimg2{
+  width: 90vh;
+  margin-right: 85vh;
+  padding-left: 7vh;
+  margin-top: -36vh;
+}

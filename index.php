@@ -58,22 +58,94 @@
       <td class="condition" >Retrait de commande possible a la Gare de Savigny</td>
     </tr>
 </table>
+
+<div class="zmenu">
+
 <h1 class ="menu" id="menu">Nos Menus</h1>
 <p id="phrases"class="MT">une palette de délices faits maisons à savourer seul ou a plusieur.</p>
 
-<table  id="myTable" class="table2">
+
+<table id="myTable" class="table2">
 <tr>
-    <th class="descmenu1"><img  id="imageCell" src="img/sen.JPG" class="imgmenu"></th>
-    <th class="descmenu1"><img id="imageCell" src="img/veg.JPG" class="imgmenu"></th>
-    <th class="descmenu1"><img id="imageCell" src="img/sucre.JPG" class="imgmenu"></th>
+    <th class="descmenu1"><img  id="imageCell" src="img/menu1.JPG" class="imgmenu"></th>
+    <th class="descmenu1"><img id="imageCell" src="img/menu3.JPG" class="imgmenu"></th>
+    <th class="descmenu1"><img id="imageCell" src="img/menu2.JPG" class="imgmenu"></th>
 </tr>
 <tr>
     <td id="textcell" class="descmenu">Plats Sénegalais <br> Menu (Entrée-plat-boisson)</td>
     <td id="textcell" class="descmenu">Plats Végétariens <br> Plat</td>
     <td id="textcell" class="descmenu">Salé & Sucré <br> Assotiment de mignardise</td>
+    <br>
 </tr>
-
-
+<tr>
+<td  id="textcell"><a href="menu.php" ><button type="button" class="btn btn-info">Pour en savoir plus</button></a></td>
+<td id="textcell"><a href="menu.php" ><button type="button" class="btn btn-info">Pour en savoir plus</button></a></td>
+<td id="textcell"><a href="menu.php" ><button type="button" class="btn btn-info">Pour en savoir plus</button></a></td>
+</tr>
 </table>
+<br>
+</div>
+<div class="titregrillade">
+<h1 class ="menu2" id="menu">Grillade</h1>
+<div>
+<div class="wrap--image"> 
+<table class="gr">
+  <tr>
+    <th class="descmenu3" style="">
+<img id="" src="img/grillade2.png" class="grilladeimg">
+</th>
+</tr>
+<tr>
+  <td class="descmenu4" style="padding-top: 50px;"> 
+   <h3 class ="grilladetxt" style=" text-align: center; font-family: conditions; "><ins>Succombez aux délices grillés de Dibi   </ins><h3> <br> 
+
+ <p > Sprecilité de viande grillée originaire d'Afrique de l'ouest.<br><br><br>
+  Nous proposons nos Dibi à base de mouton ou de poulet(aux choix) avec divers accompagnement:</p>
+<ul class="descmenu2" >
+  <li>vermicelles</li>
+  <li>Alloco</li>
+  <li>Riz Atiéké</li>
+  <li>Avec une sauce au choix</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="zoneBTI">
+<div class="zonebT">
+<h1 class="titreb">Envie d'un brush?</h1>
+<br>
+<p class="texteb">Box bruch à composer contenant du cucré, salé et une boisson.<br><br>
+Inclus au choix:<br><br>
+Pain - Confiture - Nutella - Beurre - Thé - Café - Nesquick</p><br>
+</div>
+<img class="imgb" src="img/brunch.jpg">
+</div>
+
+
+<script>
+  var target = document.querySelector('.zmenu');
+  target.style.backgroundColor = 'white';
+
+  var target2 = document.querySelector('.grilladeimg');
+  
+
+  document.querySelector('.zmenu').addEventListener('mouseenter', function(){
+    target.style.backgroundColor = '#BBAA51';
+  });
+  document.querySelector('.zmenu').addEventListener('mouseleave', function(){
+    target.style.backgroundColor = 'white';
+  });
+  document.querySelector('.menu2').addEventListener('mouseenter', function(){
+    target2.style.height = '66vh';
+  });
+  document.querySelector('.titregrillade').addEventListener('mouseenter', function(){
+    target2.style.height = '66vh';
+  });
+  
+</script>
+
+
+
 </body>
 </html>

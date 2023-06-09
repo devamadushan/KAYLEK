@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title></title>
 </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-white"> 
+<nav class="navbar navbar-expand-lg navbar-light bg-whight"> 
   <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#menu">Menu</a>
+        <a class="nav-link" href="cartes.php">Cartes</a>
       </li>
 
 
