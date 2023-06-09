@@ -461,4 +461,102 @@ padding-top: 10vh;
 
 .nosplats{
   
+  height: 90vh;
+}
+
+.NPimg{
+  width: 203vh;
+  height: 70vh;
+  z-index: -1;
+}
+
+.NPtitre{
+  font-family: pages;
+  text-align: center;
+  margin-top: -50vh;  
+  border-top: 1px solid black;
+  font-size: 20vh;
+  color: rgb(182, 148, 35);
+  z-index: -1;
+}
+.NPlist{
+width: 60vh;
+margin: 0 auto;
+color: white;
+background-color: aqua;
+font-family: conditions;
+}
+
+.platsene{
+  margin-top: 10px;
+  
+  width: 180vh;
+  margin: 0 auto;
+}
+
+.platsenetitre{
+font-family: pages;
+text-align: center;
+
+margin-top: -6vh;
+}
+
+.platsenesotitre{
+font-family: conditions;
+text-align: center;
+padding-left: 2vh;
+padding-right: 2vh;
+
+}
+
+.nosplatsimg{
+  margin-top: 2vh;
+  width: 90vh;
+}
+
+.boisson{
+  background-color: aqua;
+}
+.boitimg{
+  width: 203vh;
+  height: 80vh;
+}
+
+.pvegetarien{
+  
+  width: 180vh;
+  margin-top: 20vh;
+  margin: 0 auto;
+}
+.PVimg{
+  width: 89vh;
+}
+
+.PVtitre{
+  margin-top: 8vh;
+  font-family: pages;
+  text-align: center;
+}
+.vegcont{
+  font-family: conditions;
+  text-align: center;
+  padding-left: 9vh;
+  padding-right: 9vh;
+}
+.sucsal{
+  padding-top: 9vh;
+  
+}
+.sucsalimg{
+  width: 101vh;
+}
+
+.sucsaltitre{
+ font-family: pages;
+ text-align: center;
+}
+
+.sucsalstitre{
+  font-family: conditions;
+  text-align:center;
 }
