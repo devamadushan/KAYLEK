@@ -8,14 +8,15 @@
 </style>
 </head>
 <body>
+<?php session_start(); ?>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-whight"> 
   <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-   
+  
   <ul class="navbar-nav mr-auto">
      <div class="navbarcontent">
     <li class="nav-item active">
@@ -42,13 +43,33 @@
       <li class="nav-item ">
         <a class="nav-link" href="#">Contactez nous </a>
       </li>
-
+      <?php
+      if (isset($_SESSION['login']) && isset($_SESSION['role'])):
+      ?>
       <li class="">
-        <a class="nav-link" href="#"><img class = "login" src="img/LOGIN.png" alt="Description de l'image" > <div class="compte" >COMPTE</div> </a>
+        <a class="nav-link" href="modification.php"><img class = "login" src="img/LOGIN.png" alt="Description de l'image" > <div class="compte" >Modifier</div> </a>
       </li>
+<?php endif ?>
+
+<?php
+      if (!isset($_SESSION['login']) && !isset($_SESSION['role'])):
+      ?>
+      <li class="">
+        <a class="nav-link" href="Authentif.php"><img class = "login" src="img/LOGIN.png" alt="Description de l'image" > <div class="compte" >Connexion</div> </a>
+      </li>
+<?php endif ?>
+<?php
+      if (isset($_SESSION['login']) && isset($_SESSION['role'])):
+      ?>
+      <li class="">
+        <a class="nav-link" href="logoutkaylek.php"><img class = "login" src="img/LOGIN.png" alt="Description de l'image" > <div class="compte" >Déconexion</div> </a>
+      </li>
+<?php endif ?>
+
     </div>
     </ul>
   </div>
 </nav>
+
 </body>
 </html>

@@ -11,7 +11,11 @@
     width: 80px;
 }
 
-
+.navbar{
+ 
+  width: 160vh;
+  margin: 0 auto;
+}
 .login{
   margin-top: 12px;
   margin-left: 40px;
@@ -22,14 +26,39 @@
 
 .compte{
   margin-top: 1px;
-  margin-left: 29px;
+  text-align: center;
+  font-family: conditions;
+ 
 }
 
 .navbarcontent {
-  
-   display: flex;
-    margin-left: 220px;
+  display: flex;
+    margin: 0 auto;
   }
+
+  @media (max-width: 1000px) {
+    .navbarcontent {
+        /* Afficher les éléments en colonne */
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        background-color: aqua;
+        text-align: center;
+        
+    }
+.navbar{
+  width: 100%;
+}
+    .navbar-nav .nav-link {
+        margin-right: 0; /* Supprimer la marge à droite entre les éléments */
+        margin-bottom: 10px; /* Ajouter une marge en bas entre les éléments */
+    }
+}
+  html, body{
+    margin: 0;
+    padding: 0;
+}
+
 
   .nav-item{
     font-family: pages;
@@ -42,8 +71,7 @@
   /*index*/
  
   .d-block{
-    width: 100px;
-    height: 800px;    
+    width: 10vh; 
   }
 
   .condition{
@@ -211,7 +239,7 @@ width: 200px;
 }
 
 .zmenu{
-  background-color:#BBAA51;
+  
   cursor: pointer;
   transition: background-color 0.9s ease;
 
@@ -250,8 +278,7 @@ width: 200px;
 
 .imgb{
   margin-top: vh;
-  width: 203vh;
-  height: 70vh;
+  width: 100%;
 }
 .zonebT{
   border-top: 1px solid black;
@@ -466,18 +493,21 @@ padding-top: 10vh;
 
 .NPimg{
   width: 203vh;
-  height: 70vh;
-  z-index: -1;
+  height: 80vh;
+  position: absolute;
+ z-index: -2;
+
 }
 
 .NPtitre{
   font-family: pages;
+  
   text-align: center;
-  margin-top: -50vh;  
-  border-top: 1px solid black;
+  margin-top: 5vh;  
+padding-top: 25vh;
   font-size: 20vh;
-  color: rgb(182, 148, 35);
-  z-index: -1;
+  color: rgb(255, 255, 255);
+  
 }
 .NPlist{
 width: 60vh;
@@ -485,6 +515,7 @@ margin: 0 auto;
 color: white;
 background-color: aqua;
 font-family: conditions;
+background: linear-gradient(rgba(123,3,45,4),rgba(12,3,1,.3));
 }
 
 .platsene{
@@ -559,4 +590,79 @@ padding-right: 2vh;
 .sucsalstitre{
   font-family: conditions;
   text-align:center;
+}
+
+.autentifcarre{
+  background-color: aqua;
+  width: 30vh;
+  margin-left: 40vh;
+  margin-top: -70vh;
+}
+
+.authentiflogo{
+  width: 20vh;
+  margin-left: 10vh;
+ 
+  }
+
+.autentification{
+  
+  
+  width: 70vh;
+  margin: 0 auto;
+}
+.tableauthentif{
+  background-color: white;
+  width: 40vh;
+  height: 70vh;
+  margin: 0 auto;
+  -webkit-border-radius:10px;
+  margin-top: 30vh;
+}
+
+.colauthentif{
+  
+  margin: 0 auto;
+}
+
+.inputauthentif{
+  text-align: center;
+  padding-top:  2vh;
+  font-family: conditions;
+}
+
+.inscriptable{
+  background-color:white;
+  margin: 0 auto;
+  margin-top: 30vh;
+  width: 40vh;
+  height: 70vh;
+  -webkit-border-radius:10px;
+}
+
+.inputinscript{
+  text-align: center;
+  font-family: conditions;
+  padding-top: 1vh;
+}
+
+.backgoundimg{
+  width: 203.1vh;
+ position: absolute;
+ z-index: -1;
+}
+
+.succes{
+  text-align: center;
+}
+
+.update{
+  background-color: #BBAA51;
+  width: 40vh;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20vh;
+  height: 30vh;
+  font-family: conditions;
+  -webkit-border-radius:10px;
 }

@@ -39,8 +39,13 @@
   </a>
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    
+    
+    
+    
     <br>
     <h1 class="titre">Nos Conditions</h1>
    
@@ -58,6 +63,7 @@
       <td class="condition" >Retrait de commande possible a la Gare de Savigny</td>
     </tr>
 </table>
+
 
 <div class="zmenu">
 
@@ -85,8 +91,11 @@
 </table>
 <br>
 </div>
+
+
+
 <div class="titregrillade">
-<h1 class ="menu2" id="menu">Grillade</h1>
+<h1 class ="menu" id="menu">Grillade</h1>
 <div>
 <div class="wrap--image"> 
 <table class="gr">
@@ -125,10 +134,8 @@ Pain - Confiture - Nutella - Beurre - Thé - Café - Nesquick</p><br>
 
 <script>
   var target = document.querySelector('.zmenu');
-  target.style.backgroundColor = 'white';
+  //target.style.backgroundColor = 'white';
 
-  var target2 = document.querySelector('.grilladeimg');
-  
 
   document.querySelector('.zmenu').addEventListener('mouseenter', function(){
     target.style.backgroundColor = '#BBAA51';
@@ -136,12 +143,7 @@ Pain - Confiture - Nutella - Beurre - Thé - Café - Nesquick</p><br>
   document.querySelector('.zmenu').addEventListener('mouseleave', function(){
     target.style.backgroundColor = 'white';
   });
-  document.querySelector('.menu2').addEventListener('mouseenter', function(){
-    target2.style.height = '66vh';
-  });
-  document.querySelector('.titregrillade').addEventListener('mouseenter', function(){
-    target2.style.height = '66vh';
-  });
+  
   
 </script>
 
