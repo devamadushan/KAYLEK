@@ -32,7 +32,7 @@
         <a class="nav-link" href="nosplats.php">Nos plats </a>
       </li>
 
-      <li class="nav-iem">
+      <li class="nav-item">
         <a class="nav-link" href= "index.php" ><img class = "logo" src="img/KayLek2.png" alt="Description de l'image" ></a>
       </li>
 
@@ -43,28 +43,27 @@
       <li class="nav-item ">
         <a class="nav-link" href="#">Contactez nous </a>
       </li>
+
+  
+
       <?php
       if (isset($_SESSION['login']) && isset($_SESSION['role'])):
       ?>
-      <li class="">
-        <a class="nav-link" href="modification.php"><img class = "login" src="img/LOGIN.png" alt="Description de l'image" > <div class="compte" >Modifier</div> </a>
+      <li class="nav-item">
+        <a class="nav-link" href="compte.php"><img class = "login" src="img/LOGIN.png" alt="Description de l'image" > <div class="compte" >compte</div> </a>
       </li>
 <?php endif ?>
+
+
 
 <?php
       if (!isset($_SESSION['login']) && !isset($_SESSION['role'])):
       ?>
-      <li class="">
+      <li class="nav-item">
         <a class="nav-link" href="Authentif.php"><img class = "login" src="img/LOGIN.png" alt="Description de l'image" > <div class="compte" >Connexion</div> </a>
       </li>
 <?php endif ?>
-<?php
-      if (isset($_SESSION['login']) && isset($_SESSION['role'])):
-      ?>
-      <li class="">
-        <a class="nav-link" href="logoutkaylek.php"><img class = "login" src="img/LOGIN.png" alt="Description de l'image" > <div class="compte" >Déconexion</div> </a>
-      </li>
-<?php endif ?>
+
 
     </div>
     </ul>

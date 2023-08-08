@@ -94,8 +94,9 @@
 
 
 
+
 <div class="titregrillade">
-<h1 class ="menu" id="menu">Grillade</h1>
+<h1 class ="menu2" id="menu">Grillade</h1>
 <div>
 <div class="wrap--image"> 
 <table class="gr">
@@ -106,9 +107,9 @@
 </tr>
 <tr>
   <td class="descmenu4" style="padding-top: 50px;"> 
-   <h3 class ="grilladetxt" style=" text-align: center; font-family: conditions; "><ins>Succombez aux délices grillés de Dibi   </ins><h3> <br> 
+   <h3 class ="" style="  "></h3> <br> 
 
- <p > Sprecilité de viande grillée originaire d'Afrique de l'ouest.<br><br><br>
+ <p class="grilladetxt"> <ins>Succombez aux délices grillés de Dibi   </ins> <br>Sprecilité de viande grillée originaire d'Afrique de l'ouest.<br><br><br>
   Nous proposons nos Dibi à base de mouton ou de poulet(aux choix) avec divers accompagnement:</p>
 <ul class="descmenu2" >
   <li>vermicelles</li>
@@ -134,17 +135,46 @@ Pain - Confiture - Nutella - Beurre - Thé - Café - Nesquick</p><br>
 
 <script>
   var target = document.querySelector('.zmenu');
-  //target.style.backgroundColor = 'white';
+  // target.style.backgroundColor = 'white';
+
+  var target2 = document.querySelector('.table2');
+   var target3 = document.querySelector('.grilladeimg');
 
 
-  document.querySelector('.zmenu').addEventListener('mouseenter', function(){
+  function startAnimation() {
     target.style.backgroundColor = '#BBAA51';
-  });
-  document.querySelector('.zmenu').addEventListener('mouseleave', function(){
+    target2.style.height = '650px';
+    target2.style.transition = 'height 1.9s ease';
+    }
+
+  function stopAnimation() {
     target.style.backgroundColor = 'white';
+    target2.style.height = '250px';
+  }
+
+  window.addEventListener('scroll', function() {
+    var targetPosition = target.getBoundingClientRect();
+    var targetPosition = target3.getBoundingClientRect();
+    var windowHeight = window.innerHeight;
+
+    if (targetPosition.top < windowHeight && targetPosition.bottom >= 0) {
+      startAnimation();
+    } else {
+      stopAnimation();
+    }
   });
-  
-  
+
+  var images = document.querySelectorAll('.imgmenu');
+
+  for (var i = 0; i < images.length; i++) {
+    images[i].addEventListener('mouseover', function() {
+      this.style.webkitBorderRadius = '100px';
+    });
+
+    images[i].addEventListener('mouseleave', function() {
+      this.style.webkitBorderRadius = '0';
+    });
+  }
 </script>
 
 

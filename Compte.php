@@ -14,18 +14,16 @@
 require_once 'header.php';
 require_once 'inc/connexion-db.php';
 require_once 'inc/manager-db.php';
-
-
 ?>
 
 <?php 
-
 $id= $_SESSION['id'];
 $utilisateur= getutilisateur($id);
  ?>
 </head>
-
-<body>
+<hr>
+<body >
+<div class="logout"><a href="logoutkaylek.php">Deconnexion</a></div>
 <div class="update">
 <form action="updateutilisateurs.php" method="get" >
 <fieldset>

@@ -10,17 +10,18 @@
     <title>Nos Cartes</title>
     <?php require_once "header.php" ?>
 </head>
+<hr>
 <body>
     <div class="nosplats">
     <img class="NPimg" src="img/nosplats1.png">
     <h1 class="NPtitre">Plats fait maison</h1>
     <table class="NPlist">
         <tr>
-    <th>Sénegalais</th><th>végétariens</th><th>Salé & Sucré</th>
+    <th><a href="#senegalais">Sénegalais</a></th><th><a href="#boissons">Boissons</a></th></th><th><a href="#vegetariens">végétariens</a></th><th><a href="#salesucre">Salé & Sucré</a></th>
     </tr>
     </table>
     </div>
-    <h1 class="platsenetitre">Les plats Sénégalais</h1>
+    <h1 class="platsenetitre" id="senegalais">Les plats Sénégalais</h1>
     <div class="platsene">
     
 <table>
@@ -66,23 +67,26 @@ Chez Kaylek, le Thiacry est fait à partir de semoule et de fromage blanc.</p></
 </tr>
 </table>
 </div>
-<div class="boisson">
-<img class="boitimg" src="img/nosplats7.jpg">
+
+<img class="boitimg" id="boissons" src="img/nosplats7.jpg">
+
+<div class="boisson" >
 <h1 class="boititre">Boissons</h1>
-<table>
-    <tr>
+<br>
+<table >
+    <tr  class="boislist">
         <td><h2>Jus de bissap</h2></td>
         <td><h2>Bouye</h2></td>
         <td><h2>Gingembre</h2></td>
     </tr>
-    <tr>
-        <td>Boisson à base de fleur d’hibiscus. Elle recèle de nombreux bien fait.</td>
-        <td>Boisson originaire du Sénégal. Composée essentiellement de pain de singe (fruit comestible provenant du baobab), de lait en poudre et de sucre.</td>
-        <td>Boisson traditionnel au Sénégal. Appelée aussi Gnamankouji qui veut dire ” eau pimentée ” fait référence au jus de gingembre. Rafraichissante et piquante. Fait à base de gingembre cette boisson est réputée pour ses vertus sur la santé</td>
+    <tr class="boislist">
+        <td class="boistaille">Boisson à base de fleur d’hibiscus. Elle recèle de nombreux bien fait.</td>
+        <td class="boistaille">Boisson originaire du Sénégal. Composée essentiellement de pain de singe (fruit comestible provenant du baobab), de lait en poudre et de sucre.</td>
+        <td class="boistaille">Boisson traditionnel au Sénégal. Appelée aussi Gnamankouji qui veut dire ” eau pimentée ” fait référence au jus de gingembre. Rafraichissante et piquante. Fait à base de gingembre cette boisson est réputée pour ses vertus sur la santé</td>
     </tr>
 </table>
 </div>
-<h1 class="PVtitre">Les plats végétariens</h1>
+<h1 class="PVtitre" id="vegetariens">Les plats végétariens</h1>
 <div class="pvegetarien">
 <table>
     <tr>
@@ -107,7 +111,7 @@ Chez Kaylek le Thiou est à base de tomate concentrée et de toute sorte de lég
 </table>
 </div>
 
-<div class="sucsal">
+<div class="sucsal" id="salesucre">
 <table>
 <tr>
     <td><h1 class="sucsaltitre">Salé</h1><p class="sucsalstitre">En plus de nos pastels.
