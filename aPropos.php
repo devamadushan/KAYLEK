@@ -41,5 +41,38 @@ Je te souhaite la bienvenue dans mon quotidien culinaire.”</p>
 <img class="participationimg2" src="img/festival2.png">
 </div>
 </body>
+<script>
+    var target = document.querySelector('.pres');
+    var target2 = document.querySelector('.participation')
+    var windowHeight = window.innerHeight;
+
+
+    window.addEventListener('load', function() {
+      target.style.backgroundColor = '#BBAA51';
+
+      
+    });
+    
+
+    
+ 
+    function startAnimation(){
+        target2.style.backgroundColor = '#BBAA51';
+    }
+
+    function stopanimaton(){
+        target2.style.backgroundColor = 'white';
+    }
+
+    window.addEventListener('scroll', function() {
+        var targetPosition = target.getBoundingClientRect();
+
+        if (targetPosition.top < windowHeight && targetPosition.bottom >= 0) {
+            startAnimation();
+        } else {
+            stopAnimation();
+        }
+    });
+</script>
 </html>
 

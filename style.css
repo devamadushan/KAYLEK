@@ -339,6 +339,9 @@ width: 200px;
 }
 .pres{
   border-top: 1px solid black;
+ 
+  background-color: white;
+  transition: background-color 5s linear;
   width: 180vh;
   margin: 0 auto;
   height: 30vh;
@@ -387,6 +390,8 @@ margin-left: 20vh;
 .participation{
 padding-top: 10vh;
   width: 180vh;
+ 
+  transition: background-color 5s linear;
   margin: 0 auto;
   height: 180vh;
 
